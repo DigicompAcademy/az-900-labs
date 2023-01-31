@@ -1,0 +1,19 @@
+remote_theme: pages-themes/cayman@v0.2.0
+exclude:
+  - readme.md
+  - .github/
+header_pages:
+  - index.html
+author: Digicomp
+github_username:  digicomp
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
+title: Digicomp - Azure Fundamentals Labs
+description: [Labs for the intensive Digicomp course Azure Fundamentals (AZ-900)]
