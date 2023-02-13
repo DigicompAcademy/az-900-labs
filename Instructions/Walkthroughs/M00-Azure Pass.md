@@ -7,7 +7,12 @@ wts:
 
 In this walkthrough you will learn how to activate the Azure Pass. 
 
->**Note**: The voucher code will be provided by the Digicomp Dispo team by E-Mail. 
+Your personal Azure Pass code (Promo Code) is:
+```
+(AzurePassCode)
+```
+> **Warning:** Do not share the Azure Pass code with anyone else. This is a personal Azure Pass code that is only provided to you. Each Azure Pass code can only be activated one time.
+
 
 
 # Task 1: Activate 
