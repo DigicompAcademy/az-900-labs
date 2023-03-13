@@ -24,10 +24,10 @@ In this task, we will create a new container instance for the web application.
 	| Resource group | Click on **Create new** <br /> Name: **03-myACIApp** |
 	| Container name| **mycontainer**|
 	| Region | **(US) East US** |
-	| Image source| **Other registry**|
-	| Image type| **Public**|
-	| Image| **mcr.microsoft.com/azuredocs/aci-helloworld**|
-	| OS type| **Linux** |
+	| Availability Zones | **None** |
+	| SKU | **Standard** |
+	| Image source| **Quickstart images**|
+	| Image| **mcr.microsoft.com/azuredocs/aci-helloworld:latest (Linux)**|
 	| Size| ***Leave at the default***|
 
 
@@ -36,6 +36,7 @@ In this task, we will create a new container instance for the web application.
 	| Setting| Value|
 	|--|--|
 	| DNS name label| **mycontainerdnsxxxxx** |
+	| DNS name label scope| **Tenant** |
 
 	
 	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment, specify a different DNS name label (replacing the xxxxx) and re-deploy. 
