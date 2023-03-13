@@ -23,7 +23,7 @@ Note: Before beginning the lab, disable both the public and private firewall in 
     | --- | --- |
     | Subscription | **Leave default provided** |
     | Resource Group | Click on **Create new** <br /> Name: **04-vnet-connection** |
-    | Name | **vnet1** |
+    | Virtual Network Name | **vnet1** |
     | Region | **(US) East US** |
     
    
