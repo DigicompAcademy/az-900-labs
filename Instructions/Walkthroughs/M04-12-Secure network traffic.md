@@ -106,9 +106,9 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. Continue in your virtual machine RDP session. 
 
-2. After the machine starts, open an **Internet Explorer** browser. 
+2. After the machine starts, open an **Microsoft Edge** browser. 
 
-3. Verify that you can access **https://www.bing.com** and then close Internet Explorer. You will need to work through the IE enhanced security pop-ups. 
+3. Verify that you can access **https://www.bing.com** and then close Microsoft Edge. 
 
     **Note**: We will now configure a rule to deny outbound internet access. 
 
