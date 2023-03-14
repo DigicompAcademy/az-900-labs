@@ -69,6 +69,8 @@ In this task, we will configure the SQL server and run a SQL query.
 
 2. Click the **db1** entry representing the SQL database you created. On the db1 blade click **Query editor (preview)**.
 
+    ![Screenshot of the Query Editor menu link](../images/M02-0609.png)
+
 3. Login as **sqluser** with the password **Pa$$w0rd1234**.
 
 4. You will not be able to login. Read the error closely and make note of the IP address that needs to be allowed through the firewall. 
