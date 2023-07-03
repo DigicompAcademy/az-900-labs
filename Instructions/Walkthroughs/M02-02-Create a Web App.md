@@ -51,7 +51,7 @@ In this task, we will test the web app.
 
 2. From **Notifications** click **Go to resource**. 
 
-3. On the **Overview** blade, locate the **URL**. Copy the URL to the clipboard.
+3. On the **Overview** blade, locate the **Default Domain**. Copy the URL to the clipboard.
 
     ![Screenshot of the web app properties blade. The URL is highlighted.](../images/M02-0201.png)
 
