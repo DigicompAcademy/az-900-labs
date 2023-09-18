@@ -3,6 +3,7 @@ wts:
     title: '02 - Create a Web App (10 min)'
     module: '02 - Azure Architecture & Services'
 ---
+
 # 02 - Create a Web App (10 min)
 
 In this walkthrough, we will create a web app that runs a Docker container. The Docker container contains a Welcome message. 
