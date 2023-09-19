@@ -43,7 +43,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
 1. On the **Function App** blade, click the newly created function app. 
 
-2. On the function app blade, in the **Functions** section, click **Functions** and then click **+ Create**.
+2. On the function app overview click on **Create new Function**
 
     ![Screenshot of the choose a development environment step in the azure functions for dot net getting started pane inside Azure portal. The display elements for creating a new in-portal function are highlighted. The highlighted elements are expand the function app, add new function, in-portal, and the continue button.](../images/M03-1002.png)
 
