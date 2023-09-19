@@ -30,8 +30,9 @@ In this task, we will configure Cloud Shell.
 5. Select **Create Storage**
 
 # Task 2: Create a resource group and virtual machine
-
 In this task, we will use PowerShell to create a resource group and a virtual machine.  
+
+>**Note**: Open a notepad on the virtual machine and copy the Powershell/Bash commands into it first. From the notepad it can then be pasted into the browser by right clicking "copy" and "paste as plain text". 
 
 1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
