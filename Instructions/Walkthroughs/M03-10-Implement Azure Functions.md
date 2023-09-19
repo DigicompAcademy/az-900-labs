@@ -43,13 +43,13 @@ In this task, we will use the Webhook + API function to display a message when t
 
 1. On the **Function App** blade, click the newly created function app. 
 
-2. On the function app overview click on **Create new Function**
+2. On the function app overview, Functions Tab click on **Create in Azure Portal**
 
-    ![Screenshot of the choose a development environment step in the azure functions for dot net getting started pane inside Azure portal. The display elements for creating a new in-portal function are highlighted. The highlighted elements are expand the function app, add new function, in-portal, and the continue button.](../images/M03-1002.png)
+    ![Screenshot of the choose a development environment step in the azure functions for dot net getting started pane inside Azure portal. The display elements for creating a new in-portal function are highlighted. The highlighted elements are expand the function app, add new function, in-portal, and the continue button.](../images/M03-1009.png)
 
-3. An **Add function** pop-up window will appear on the right. In the **Select a template** section click **HTTP trigger**. Click **Create** 
+3. An pop-up window will appear on the right. In the **Template** section click **HTTP trigger**. Click **Create** 
 
-    ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/M03-1003.png)
+    ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/M03-1010.png)
 
 4. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test**. 
 
