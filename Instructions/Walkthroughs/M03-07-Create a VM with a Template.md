@@ -21,7 +21,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 5. When prompted, sign into your Azure subscription using the credentials provided earlier in the instructions.
 
-6. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. Next locate the the paraemter for vmSize and change it to **Standard_D2s_v3**. **Save** your changes. 
+6. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. Next locate the the parameter for vmSize and change it to **Standard_D2s_v3**. **Save** your changes. 
 
     ![Screenshot of the template with the VM name change highlilghted.](../images/M03-0701.png)
 
