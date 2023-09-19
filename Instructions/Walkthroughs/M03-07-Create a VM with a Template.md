@@ -23,9 +23,10 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 6. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. Next locate the the parameter for vmSize and change it to **Standard_D2s_v3**. **Save** your changes. 
 
+    vmName:
     ![Screenshot of the template with the VM name change highlilghted.](../images/M03-0701.png)
 
-
+    vmSize:
     ![Screenshot of the template with the VM name change highlilghted.](../images/M03-0705.png)
 
 7. Now configure the parameters required by the template (replace ***xxxx*** in the DNS label prefix with letters and digits such that the label is globally unique). Leave the defaults for everything else. 
