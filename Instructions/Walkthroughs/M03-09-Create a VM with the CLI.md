@@ -31,6 +31,8 @@ In this task, we will configure Cloud Shell, then use Azure CLI to create a reso
 
 In this task, we will use Azure CLI to create a resource group and a virtual machine.
 
+>**Note**: Open a notepad on the virtual machine and copy the Powershell/Bash commands into it first. From the notepad it can then be pasted into the browser by right clicking "copy" and "paste as plain text". 
+
 1. Ensure **Bash** is selected in the upper-left drop-down menu of the Cloud Shell pane (and if not, select it).
 
     ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](../images/M03-0902.png)
