@@ -42,7 +42,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
     az vm create \
     --name myVMCLI \
     --resource-group 09-vm-cli \
-    --image UbuntuLTS \
+    --image ubuntu2204 \
     --location EastUS2 \
     --admin-username azureuser \
     --admin-password Pa$$w0rd1234
