@@ -27,16 +27,16 @@ In this task, we will configure the allowed location policy and assign it to our
     | Policy definition | click elipses then search **Allowed Locations** then **Select** |
     | Assignment Name | **Allowed Locations** |
     
-    ![Screenshot of the Scope pane with field values filled in and the Select button highlighted. ](../images/M05-1402.png)
+
 6. On the **Parameters** tab, select **Japan West**. Click **Review + create**, and then **Create**.
 
     **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource group, however we chose to assign the policy at subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are optional.
 
     **Note**: This **Allowed Locations** policy definition will specify a location into which all resources must be deployed. If a different location is chosen, deployment will not be allowed. For more information view the [Azure Policy Samples](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index) page.
 
-   ![Screenshot of Available Definitions pane with various fields highlighted and the Audit VMs that do not use managed disks option selected.](../images/M05-1403.png)
+ 
 
-9. The **Allowed locations** policy assignment is now listed on the **Policy - Assignments** pane and it is now in place, enforcing the policy at the scope level we specified (subscription level).
+7. The **Allowed locations** policy assignment is now listed on the **Policy - Assignments** pane and it is now in place, enforcing the policy at the scope level we specified (subscription level).
 
 # Task 2: Test Allowed location policy
 
@@ -72,8 +72,6 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 2. Click **Allowed Locations** It will open an Allowed locations Policy Compliance window.
 
 3. Click **Delete Assignment** in the top menu. Confirm you wish to delete the policy assignment by clicking **Yes**
-
-   ![Screenshot of the Delete Assignment menu item.](../images/M05-1407.png)
 
 4. Try to create another storage account to ensure the policy is no longer in effect.
 
