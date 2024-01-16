@@ -36,12 +36,12 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
     az group list --output table
     ```
 
-4. In Cloud Shell enter the command below to create a resource group.
+3. In Cloud Shell enter the command below to create a resource group.
     ```cli
     az group create --location eastUs2 --resource-group 09-vm-cli
     ```
 
-5. In Cloud Shell enter the command below and make sure that each line, except for the last one, is followed by the backslash (`\`) character. If you type the whole command on the same line, do not use any backslash characters. 
+4. In Cloud Shell enter the command below and make sure that each line, except for the last one, is followed by the backslash (`\`) character. If you type the whole command on the same line, do not use any backslash characters. 
 
     ```cli
     az vm create \
@@ -55,6 +55,9 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
     >**Note**: If you are using the command line on a Windows computer, replace the backslash (`\`) character with the caret (`^`) character.
     
+    >**Note**: If an error message appears that the resource group does not exist, execute the following command first: <br />
+    az group create --location eastUs2 --resource-group 09-vm-cli
+
     **Note**: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. 
 
 6. When the command finishes running, in the browser window, close the Cloud Shell pane.
