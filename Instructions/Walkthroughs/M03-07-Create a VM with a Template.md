@@ -11,7 +11,7 @@ In this walkthrough, we will deploy a virtual machine with a QuickStart template
 
 In this task, we will browse the Azure QuickStart gallery and deploy a template that creates a virtual machine. 
 
-1. Within the lab environment, open a new browser window, and enter https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.compute/vm-simple-windows.
+1. Within the lab environment, open a new browser window, and enter https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.compute/vm-simple-windows
 
 2. Click the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure portal](http://portal.azure.com/).
 
