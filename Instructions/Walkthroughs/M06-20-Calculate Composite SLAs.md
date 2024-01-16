@@ -18,9 +18,9 @@ Our example application consists of these Azure services. We will not go in to d
 
 1. In a browser, go to the [SLA summary for Azure services](https://azure.microsoft.com/en-us/support/legal/sla/summary/) page.
 
-2. Locate the **App Service** SLA uptime value, **99.95%**. Click **View full details**, and then expand **SLA details**. Notice the **Monthly uptime percentages** and **Service Credits**.
+2. Download the Word Document and locate the **App Service** SLA uptime value, **99.95%**  and **Service Credits**.
 
-3. Return to the SLA webpage and locate the **Azure Active Directory B2C** service and determine the SLA uptime value, **99.9%**. 
+3. Locate the **Azure Active Directory B2C** service and determine the SLA uptime value, **99.99%**. 
 
 4. Locate the **Application Gateway** SLA uptime value, **99.95%**. 
 
