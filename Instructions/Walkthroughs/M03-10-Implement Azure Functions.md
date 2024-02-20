@@ -23,8 +23,8 @@ In this task, we will create a Function app.
     | Resource group | Click on **Create new** <br /> Name: **10-function** |
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
-    | Runtime stack | **.NET** |
-    | Version | **6** |
+    | Runtime stack | **Powershell Core** |
+    | Version | **7.2** |
     | Region | **East US** |
 
     **Note** - Remember to change the **xxxx** so that it makes a unique **Function App name**
