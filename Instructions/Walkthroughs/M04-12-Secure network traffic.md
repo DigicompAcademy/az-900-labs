@@ -67,6 +67,9 @@ In this task, we will create a network security group and associate it with the 
 4. After the NSG is created, click **Go to resource**.
 
 5. Under **Settings** click **Network interfaces** and then **Associate**.
+    
+    **Note**: It can take up to **10 minutes** until the network interface is available for selection. 
+
 
 6. Select the network interface you identified in the previous task. 
 
