@@ -38,11 +38,11 @@ In this task, you will create an Azure App Service Web App.
     | Options | **Single container** |
     | Image Source | **Docker Hub** |
     | Access Type | **Public** |
-    | Image and tag | **mcr.microsoft.com/azuredocs/aci-helloworld** |
+    | Image and tag | **mcr.microsoft.com/mcr/hello-world:latest** |
     
  **Note:** The startup command is optional and not needed in this exercise.
 
-5. Click **Review + create**, and then click **Create**. 
+1. Click **Review + create**, and then click **Create**. 
 
 # Task 2: Test the Web App
 
