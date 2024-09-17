@@ -25,20 +25,19 @@ In this task, you will create an Azure App Service Web App.
     | Subscription | **Use default supplied** |
     | Resource Group | Click on **Create new** <br /> Name: **02-myWebApp**|
     | Name | **myDockerWebAppxxxx** |
-    | Publish | **Docker Container** |
+    | Publish | **Container** |
     | Operating System | **Linux** |
-    | Region | **East US** |
+    | Region | **East US 2** |
     
     **Note:** Remember to change the **xxxx** so that your Web App name is unique.
 
-4. Click **Next > Docker** and configure the container information.  
+4. Click **Next > Container** and configure the container information.  
 
     | Setting | Value |
     | -- | -- |
-    | Options | **Single container** |
-    | Image Source | **Docker Hub** |
-    | Access Type | **Public** |
-    | Image and tag | **mcr.microsoft.com/mcr/hello-world:latest** |
+    | Image Source | **Quickstart** |
+    | Options | **Single Container** |
+    | Sample | **NGINX** |
     
  **Note:** The startup command is optional and not needed in this exercise.
 
