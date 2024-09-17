@@ -15,25 +15,26 @@ In this task, we will create a Function app.
 
 2. In the **Search** bar at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Create**.
 
-3. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with letters and digits such that the name is globally unique and leave all other settings with their default values): 
+3. Select the **Consumption** Hosting Plan. 
+
+4. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with letters and digits such that the name is globally unique and leave all other settings with their default values): 
 
     | Settings | Value |
     | -- | --|
     | Subscription | **Keep default supplied** |
     | Resource group | Click on **Create new** <br /> Name: **10-function** |
     | Function App name | **function-xxxx** |
-    | Publish | **Code** |
     | Runtime stack | **Powershell Core** |
-    | Version | **7.2** |
-    | Region | **East US** |
+    | Version | **7.4** |
+    | Region | **East US 2** |
 
     **Note** - Remember to change the **xxxx** so that it makes a unique **Function App name**
 
-4. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
+5. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
-5. Wait for the notification that the resource has been created.
+6. Wait for the notification that the resource has been created.
 
-6. When the deployment has completed, click **Go to resource** from the deployment blade. Alternatively, navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
+7. When the deployment has completed, click **Go to resource** from the deployment blade. Alternatively, navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
 
     ![Screenshot of the Function App page with the new Function app.](../images/M03-1001.png)
 
