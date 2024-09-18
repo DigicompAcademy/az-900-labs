@@ -28,9 +28,10 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
 >**Note**: Open a notepad on the virtual machine and copy the Powershell/Bash commands into it first. From the notepad it can then be pasted into the browser by right clicking "copy" and "paste as plain text". 
 
-1. Ensure **Bash** is selected in the upper-left drop-down menu of the Cloud Shell pane (and if not, select it).
+1. Verify that Bash is active. If Powershell is currently active, click on  **Switch to Bash**. 
 
-    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](../images/M03-0902.png)
+    ![Screenshot of Azure Portal Azure Cloud Shell Storage.](../images/M03-0807.png)
+
 
 
 2. Verify the resource group you are using by entering the following command.
