@@ -17,17 +17,14 @@ In this task, we will configure Cloud Shell.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/M03-0801.png)
 
-3. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**.
+3. At **Getting Started** select **no storage account required** and click on **Apply**
+    
+    ![Screenshot of Azure Portal Azure Cloud Shell Storage.](../images/M03-0805.png)
 
-4. On the **You have no storage mounted** screen select **Show advanced settings** then fill in the information below
+4. Verify that Powershell is active. If Bash is currently active, click on  **Switch to PowerShell**. 
 
-    | Settings | Values |
-    |  -- | -- |
-    | Resource Group | Click on **Create new** <br /> Name: **08-vm-powershell** |
-    | Storage account (Create a new account a use a globally unique name (ex: cloudshellstoragemystorage)) | **cloudshellxxxxxxx** |
-    | File share (create new) | **shellstorage** |
+    ![Screenshot of Azure Portal Azure Cloud Shell Storage.](../images/M03-0806.png)
 
-5. Select **Create Storage**
 
 # Task 2: Create a resource group and virtual machine
 In this task, we will use PowerShell to create a resource group and a virtual machine.  

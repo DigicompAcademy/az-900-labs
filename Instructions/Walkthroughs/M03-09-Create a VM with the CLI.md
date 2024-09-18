@@ -17,7 +17,10 @@ In this task, we will configure Cloud Shell, then use Azure CLI to create a reso
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/M03-0901.png)
    
-3. In the Welcome to Azure Cloud Shell dialog, when prompted to select either **Bash** or **PowerShell**, select **Bash**. 
+3. Verify that Bash is active. If Powershell is currently active, click on  **Switch to Bash**. 
+
+    ![Screenshot of Azure Portal Azure Cloud Shell Storage.](../images/M03-0807.png)
+
 
 # Task 2: Use CLI to create a virtual machine
 
