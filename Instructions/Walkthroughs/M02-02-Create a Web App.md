@@ -55,9 +55,7 @@ In this task, we will test the web app.
 
     ![Screenshot of the web app properties blade. The URL is highlighted.](../images/M02-0201.png)
 
-4. In a new browser window, paste the URl and press enter. The Welcome to Azure Container Instances! welcome message will be displayed.
-
-    ![Screenshot of the Welcome to Azure Container Instance page.](../images/M02-0202.png)
+4. In a new browser window, paste the URl and press enter. The Welcome to nginx
 
 5. Switch back to the **Overview** blade of your web app, switch to the **Monitoring** tab. You will notice several charts tracking Data In/Out and Requests. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in these charts. This includes number of requests and average response time. The display may show a short delay of approx. one minute. 
 
