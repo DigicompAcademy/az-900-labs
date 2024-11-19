@@ -36,7 +36,6 @@ In this task, you will create an Azure App Service Web App.
     | Setting | Value |
     | -- | -- |
     | Image Source | **Quickstart** |
-    | Options | **Single Container** |
     | Sample | **NGINX** |
     
  **Note:** The startup command is optional and not needed in this exercise.
