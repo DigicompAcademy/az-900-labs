@@ -48,35 +48,29 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of the choose a development environment step in the azure functions for dot net getting started pane inside Azure portal. The display elements for creating a new in-portal function are highlighted. The highlighted elements are expand the function app, add new function, in-portal, and the continue button.](../images/M03-1009.png)
 
-3. An pop-up window will appear on the right. In the **Template** section click **HTTP trigger**. Click **Create** 
+3. An pop-up window will appear on the right. In the **Template** section click **HTTP trigger**. Click **Next** and **Create**. 
 
     ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/M03-1010.png)
 
-4. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test**. 
+4. Test the function by clicking on **Test/Run**. Define a name with the corresponding value and click on **Run**. A message should then appear, e.g. **Hello, Test123. This HTTP triggered function executed successfully.**.  
+       ![Test-Run](../images/M03-1011.png)
 
-5. On the **Code + Test** blade, review the auto-generated code and note that the code is designed to run an HTTP request and log information. Also, notice the function returns a Hello message with a name. 
+5. Click **Get function URL** from the top section of function editor and ensure to Copy the **default (Function Key)** value
+   ![Get-Function-Key](../images/M03-1012.png)
 
-    ![Screenshot of the function code. The Hello message is hightlighted.](../images/M03-1004.png)
-
-6. Click **Get function URL** from the top section of function editor. 
-
-7. Ensure that the value in the **Key** drop-down list is set to **default** and click **Copy** to copy the function URL. 
-
-    ![Screenshot of the get function URL pane inside the function editor in Azure portal. The display elements get function URL button, set key dropdown, and copy URL button are highlighted to indicate how to obtain and copy the function URL from the function editor.](../images/M03-1005.png)
-
-8. Open a new browser tab and paste the copied function URL into your web browser's address bar. When the page is requested the function will run. Notice the returned message stating that the function requires a name in the request body.
+6. Open a new browser tab and paste the copied function URL into your web browser's address bar. When the page is requested the function will run. Notice the returned message stating that the function requires a name in the request body.
 
     ![Screenshot of the please provide a name message.](../images/M03-1006.png)
 
-9. Append **&name=*yourname*** to the end of the URL.
+7.  Append **&name=*yourname*** to the end of the URL.
 
     **Note**: For example, if your name is Cindy, the final URL will resemble the following: `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX==&name=cindy`
 
     ![Screenshot of a highlighted function URL and an appended example user name in the address bar of a web browser. The hello message and user name are also highlighted to illustrate the output of the function in the main browser window.](../images/M03-1007.png)
 
-10. When you hit enter, your function runs and every invocation is traced. To view the traces, return to the Portal **HttpTrigger1 \| Code + Test** blade and click **Monitor**. You can open the **Logs** tab to get a live view. Open again the same URL as before. Now you should see an entry in the console. .
+8.  When you hit enter, your function runs and every invocation is traced. To view the traces, return to the Portal **HttpTrigger1 \| Code + Test** and click **Logs**. You can open the **Logs** tab to get a live view. Open again the same URL as before. Now you should see an entry in the console. .
 
-    ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/M03-1008.png) 
+    ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/M03-1013.png) 
 
 Congratulations! You have created a Function App to display a Hello message when there is an HTTP request.  
 
