@@ -19,13 +19,10 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 3. When prompted, sign into your Azure subscription using the credentials provided earlier in the instructions.
 
-4. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. Next locate the the parameter for vmSize and change it to **Standard_D2s_v3**. **Save** your changes. 
+4. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the **vmName** to **myVMTemplate**. Next locate the the parameter for **vmSize** and change it to **Standard_D2s_v3**. **Save** your changes. 
 
-    vmName:
-    ![Screenshot of the template with the VM name change highlilghted.](../images/M03-0701.png)
+    ![Screenshot of the template with the VM name change highlilghted.](../images/M03-0708.png)
 
-    vmSize:
-    ![Screenshot of the template with the VM name change highlilghted.](../images/M03-0705.png)
 
 5. Now configure the parameters required by the template (replace ***xxxx*** in the DNS label prefix with letters and digits such that the label is globally unique). Leave the defaults for everything else. 
 
@@ -36,7 +33,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Region | Keep default |
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
-    | DNS label prefix | **myvmtemplatexxxx** |
+    | DNS label prefix | **myvmtemplatexxxx** (Replace **xxxx** with random 4 digits) |
     | OS version | **2022-datacenter-azure-edition** |
 
 
