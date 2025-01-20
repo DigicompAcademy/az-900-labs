@@ -24,7 +24,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
    ![image](../images/M05-1501.png)
    >**Attention** Do not select ```Require a tag and its value on resource groups ```
    
-6.  On the **Parameters** tab, type in **Company : Contoso ** for the tag key/value pair name. Click **Review + create**, and then **Create**.
+6.  On the **Parameters** tab, type in **Company : Contoso** for the tag key/value pair name. Click **Review + create**, and then **Create**.
 
   
 
