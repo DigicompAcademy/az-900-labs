@@ -33,7 +33,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Region | Keep default |
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
-    | DNS label prefix | **myvmtemplatexxxx** (Replace **xxxx** with random 4 digits) |
+    | DNS label prefix | **myvmtemplatexxxx** (Replace **xxxx** with random 4 digits. Do not use 1234.) |
     | OS version | **2022-datacenter-azure-edition** |
 
 
