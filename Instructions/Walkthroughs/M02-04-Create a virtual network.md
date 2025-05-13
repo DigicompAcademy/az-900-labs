@@ -11,8 +11,6 @@ In this walkthrough, we will create a virtual network, deploy two virtual machin
 
 In this task, we will create a virtual network. 
 
-Note: Before beginning the lab, disable both the public and private firewall in your virtual machine by opening the Start menu > Settings > Network and Internet > Locate Windows Firewall
-
 1. Sign in to the Azure portal at <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
 2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Create**. 
