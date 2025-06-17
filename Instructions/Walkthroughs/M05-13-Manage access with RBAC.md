@@ -31,7 +31,7 @@ In this task, we will assign the Virtual machine contributor role.
 6. Click on the **Access control (IAM)** blade, and then switch to the **Roles** tab. Scroll through the large number of roles definitions that are available. Use the Informational icons to get an idea of each role's permissions. Notice there is also information on the number of users and groups that are assigned to each role.
 ![image](../images/M05-1301.png)
 
-1. Switch to the **Role assignments** tab of the **myRGRBAC - Access control (IAM)** blade, click **+ Add** and then click **Add role assignment**. Search for the **Virtual Machine Contributor** role and select. Switch to the **Members** tab and Assign access to: User, group, or service principal. Then click **+ Select members** and search for an user and click **select**.  Then hit **Review and Assign**
+1. Switch to the **Role assignments** tab of the **Access control (IAM)** blade, click **+ Add** and then click **Add role assignment**. Search for the **Virtual Machine Contributor** role and select. Switch to the **Members** tab and Assign access to: User, group, or service principal. Then click **+ Select members** and search for an user and click **select**.  Then hit **Review and Assign**
 
     
     ![image](../images/M05-1302.png)
