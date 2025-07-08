@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '21 - Open a Support Request (5 min)'
+    title: '20 - Open a Support Request (5 min)'
     module: '06: Cost & Support'
 ---
 # 21 - Open a Support Request (5 min)

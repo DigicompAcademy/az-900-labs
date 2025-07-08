@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '20 - Calculate Composite SLAs (5 min)'
+    title: '19 - Calculate Composite SLAs (5 min)'
     module: '06: Cost & Support'
 ---
 # 20 - Calculate Composite SLAs (5 min)
