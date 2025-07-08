@@ -3,7 +3,7 @@ wts:
     title: '20 - Open a Support Request (5 min)'
     module: '06: Cost & Support'
 ---
-# 21 - Open a Support Request (5 min)
+# 20 - Open a Support Request (5 min)
 
 In this walkthrough, we will view available support plan options and then practice creating and monitoring a new support request.
 
