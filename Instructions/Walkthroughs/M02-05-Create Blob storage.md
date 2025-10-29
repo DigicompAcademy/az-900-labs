@@ -42,7 +42,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 1. Click the name of the new storage account, scroll to **Containers** item in the menu on the left under the Data Storage section. 
 
-2. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **Create**.
+2. Click **Add Container** and complete the information. Use the Information icons to learn more. When done click **Create**.
 
 
     | Setting | Value |

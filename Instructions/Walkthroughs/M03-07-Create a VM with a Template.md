@@ -11,21 +11,20 @@ In this walkthrough, we will deploy a virtual machine with a QuickStart template
 
 In this task, we will browse the Azure QuickStart gallery and deploy a template that creates a virtual machine. 
 
-1. Within the lab environment, open a new browser window, and enter https://azure.microsoft.com/en-us/resources/templates/?azure-portal=true. In the gallery you will find a number of popular and recently updated templates. These templates automate deployment of Azure resources, including installation of popular software packages. Browse through the many different types of templates that are available.
+1. Within the lab environment, open a new browser window, and enter https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/microsoft.compute/vm-simple-windows
 
-3. Select the **Deploy a simple Windows VM**
-
-4. Click the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure portal](http://portal.azure.com/).
+2. Click the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure portal](http://portal.azure.com/).
 
   **Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for small set of configuration parameters. 
 
-5. When prompted, sign into your Azure subscription using the credentials provided earlier in the instructions.
+3. When prompted, sign into your Azure subscription using the credentials provided earlier in the instructions.
 
-6. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. **Save** your changes. 
+4. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the **vmName** to **myVMTemplate**. Next locate the the parameter for **vmSize** and change it to **Standard_D2s_v3**. **Save** your changes. 
 
-    ![Screenshot of the template with the VM name change highlilghted.](../images/M03-0701.png)
+    ![Screenshot of the template with the VM name change highlilghted.](../images/M03-0708.png)
 
-7. Now configure the parameters required by the template (replace ***xxxx*** in the DNS label prefix with letters and digits such that the label is globally unique). Leave the defaults for everything else. 
+
+5. Now configure the parameters required by the template (replace ***xxxx*** in the DNS label prefix with letters and digits such that the label is globally unique). Leave the defaults for everything else. 
 
     | Setting| Value|
     |----|----|
@@ -34,13 +33,13 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Region | Keep default |
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
-    | DNS label prefix | **myvmtemplatexxxx** |
-    | OS version | **2019-Datacenter** |
+    | DNS label prefix | **myvmtemplatexxxx** (Replace **xxxx** with random 4 digits. Do not use 1234.) |
+    | OS version | **2022-datacenter-azure-edition** |
 
 
-9. Click **Review + Create**.
+6. Click **Review + Create**.
 
-10. Monitor your deployment. 
+7. Monitor your deployment. 
 
 # Task 2: Verify and monitor your virtual machine deployment
 

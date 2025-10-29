@@ -67,6 +67,9 @@ In this task, we will create a network security group and associate it with the 
 4. After the NSG is created, click **Go to resource**.
 
 5. Under **Settings** click **Network interfaces** and then **Associate**.
+    
+    **Note**: It can take up to **10 minutes** until the network interface is available for selection. 
+
 
 6. Select the network interface you identified in the previous task. 
 
@@ -114,7 +117,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 4. Back in the Azure portal, navigate back to the blade of the **SimpleWinVM** virtual machine. 
 
-5. Under **Settings**, click **Networking**, and then **Outbound port rules**.
+5. Under **Network**, click **Networking Settings**, and then **Outbound port rules**.
 
 6. Notice there is a rule, **AllowInternetOutbound**. This a default rule and cannot be removed. 
 

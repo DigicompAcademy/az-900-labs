@@ -3,6 +3,7 @@ wts:
     title: '02 - Create a Web App (10 min)'
     module: '02 - Azure Architecture & Services'
 ---
+
 # 02 - Create a Web App (10 min)
 
 In this walkthrough, we will create a web app that runs a Docker container. The Docker container contains a Welcome message. 
@@ -24,24 +25,22 @@ In this task, you will create an Azure App Service Web App.
     | Subscription | **Use default supplied** |
     | Resource Group | Click on **Create new** <br /> Name: **02-myWebApp**|
     | Name | **myDockerWebAppxxxx** |
-    | Publish | **Docker Container** |
+    | Publish | **Container** |
     | Operating System | **Linux** |
-    | Region | **East US** |
+    | Region | **East US 2** |
     
     **Note:** Remember to change the **xxxx** so that your Web App name is unique.
 
-4. Click **Next > Docker** and configure the container information.  
+4. Click **Next > Container** and configure the container information.  
 
     | Setting | Value |
     | -- | -- |
-    | Options | **Single container** |
-    | Image Source | **Docker Hub** |
-    | Access Type | **Public** |
-    | Image and tag | **mcr.microsoft.com/azuredocs/aci-helloworld** |
+    | Image Source | **Quickstart** |
+    | Sample | **NGINX** |
     
  **Note:** The startup command is optional and not needed in this exercise.
 
-5. Click **Review + create**, and then click **Create**. 
+1. Click **Review + create**, and then click **Create**. 
 
 # Task 2: Test the Web App
 
@@ -51,13 +50,11 @@ In this task, we will test the web app.
 
 2. From **Notifications** click **Go to resource**. 
 
-3. On the **Overview** blade, locate the **URL**. Copy the URL to the clipboard.
+3. On the **Overview** blade, locate the **Default Domain**. Copy the URL to the clipboard.
 
     ![Screenshot of the web app properties blade. The URL is highlighted.](../images/M02-0201.png)
 
-4. In a new browser window, paste the URl and press enter. The Welcome to Azure Container Instances! welcome message will be displayed.
-
-    ![Screenshot of the Welcome to Azure Container Instance page.](../images/M02-0202.png)
+4. In a new browser window, paste the URl and press enter. The Welcome to nginx
 
 5. Switch back to the **Overview** blade of your web app, switch to the **Monitoring** tab. You will notice several charts tracking Data In/Out and Requests. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in these charts. This includes number of requests and average response time. The display may show a short delay of approx. one minute. 
 

@@ -24,11 +24,11 @@ In this task, we will configure the **Require a tag on resources** policy and as
    ![image](../images/M05-1501.png)
    >**Attention** Do not select ```Require a tag and its value on resource groups ```
    
-6.  On the **Parameters** tab, type in **Company : Contoso ** for the tag key/value pair name. Click **Review + create**, and then **Create**.
+6.  On the **Parameters** tab, type in **Company : Contoso** for the tag key/value pair name. Click **Review + create**, and then **Create**.
 
   
 
-7. The **Require a tag amd its value on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
+7. The **Require a tag and its value on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
    >**Note - you need to wait up to 30 minutes for the Policy to be applied.** 
 
   ![image](../images/M05-1502.png)
@@ -83,11 +83,11 @@ In this task, we will create storage accounts to test the required tagging.
 
 # Task 4: Delete the policy assignment
 
-In this task, we will remove the **Require a tag on resources** policy so it does not affect our future work. 
+In this task, we will remove the **Require a tag and its value on resources** policy so it does not affect our future work. 
 
 1. In the portal, from the **All services** blade, search for and select **Policy**.
 
-2. Click the **Require a tag on resources** policy entry.
+2. Click the **Require a tag and its value on resources** policy entry.
 
 3. Click **Delete Assignment** in the top menu.
 

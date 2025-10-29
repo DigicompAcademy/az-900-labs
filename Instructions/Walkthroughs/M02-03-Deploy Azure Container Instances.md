@@ -27,7 +27,7 @@ In this task, we will create a new container instance for the web application.
 	| Availability Zones | **None** |
 	| SKU | **Standard** |
 	| Image source| **Quickstart images**|
-	| Image| **mcr.microsoft.com/azuredocs/aci-helloworld:latest (Linux)**|
+	| Image| **mcr.microsoft.com/azuredocs/aci-helloword:latest**|
 	| Size| ***Leave at the default***|
 
 

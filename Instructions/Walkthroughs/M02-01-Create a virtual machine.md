@@ -52,21 +52,22 @@ In this task, we will connect to our new virtual machine using RDP (Remote Deskt
 
     **Note**: You could also use the **Go to resource** link on the deployment page 
 
-2. On the virtual machine **Overview** blade, click **Connect** button and choose **RDP** from the drop down. Click on **Download RDP File** and open it. 
+2. On the virtual machine **Overview** blade, click **Connect** button. 
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/M02-0101.png)
 
-    **Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
+3. On the **Connect** page, under **Native RDP** click on **Select**. An Sidebar  menu opens. In this menu click on **Download RDP file**. 
+  
+    ![Screenshot RDP File download.](../images/M02-0109.png)
 
-2. On the **Connect to virtual machine** page, keep the default options to connect with the public IP address over port 3389 and click **Download RDP File**. A file will download on the bottom left of your screen.
 
-3. **Open** the downloaded RDP file (located on the bottom left of your lab machine) and click **Connect** when prompted. 
+4. **Open** the downloaded RDP file (located on the bottom left of your lab machine) and click **Connect** when prompted. 
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/M02-0102.png)
 
-4. In the **Windows Security** window, sign in using the Admin Credentials you used when creating your VM **azureuser** and the password **Pa$$w0rd1234**. 
+5. In the **Windows Security** window, sign in using the Admin Credentials you used when creating your VM **azureuser** and the password **Pa$$w0rd1234**. 
 
-5. You may receive a warning certificate during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
+6. You may receive a warning certificate during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
 
     ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](../images/M02-0104.png)
 

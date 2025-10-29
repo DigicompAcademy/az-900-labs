@@ -30,11 +30,25 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
 
 6. Click on the key vault **Overview** tab and take note of the **Vault URI**. Applications that use your vault through the REST APIs will need this URI.
 
-7. Take a moment to browse through some of the other key vault options. Under **Objects** review **Keys**, **Secrets**, **Certificates**, Under **Settings** review **Access configuration**, **Networking**.
+# Task 2: Role Based Access Control
+
+1. Locate **Access Control (IAM)** in den Submenu and click on **Add** / **Add Role Assignment**. 
+
+    ![IAM Key-Vault](../images/M04-0101.png)
+
+2. Search for the role **Key Vault Administrator** and select it. Click on **next**. 
+
+    ![IAM Key-Vault](../images/M04-0102.png)
+
+3. **Select members** and search for your admin Account. Add it to the Key Vault Administrator Group. Click on **Review & Assign** and finish this procedure. 
+
+    ![IAM Key-Vault](../images/M04-0103.png)
+
+4. Take a moment to browse through some of the other key vault options. Under **Objects** review **Keys**, **Secrets**, **Certificates**, Under **Settings** review **Access configuration**, **Networking**.
 
     **Note**: Your Azure account is the only one authorized to perform operations on this new vault. You can modify this if you wish in the **Settings** and then the **Access policies** section.
 
-# Task 2: Add a secret to the Key Vault
+# Task 3: Add a secret to the Key Vault
         
 In this task, we will add a password to the key vault. 
 

@@ -17,23 +17,25 @@ In this task, we will configure Cloud Shell, then use Azure CLI to create a reso
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/M03-0901.png)
    
-3. In the Welcome to Azure Cloud Shell dialog, when prompted to select either **Bash** or **PowerShell**, select **Bash**. 
+3. At **Getting Started** select **no storage account required** and click on **Apply**
+    
+    ![Screenshot of Azure Portal Azure Cloud Shell Storage.](../images/M03-0805.png)
 
-4. A new window will open stating **You have no storage mounted**. Select **advanced settings**.
+4. Verify that Bash is active. If Bash is currently active, click on  **Switch to Bash**. 
 
-5. In the advanced settings screen, fill in the following fields, then click Create Storage:
-    - Resource Group: Click on **Create new** <br /> Name: **09-vm-cli**
-    - Storage Account: Create a new account a use a globally unique name (ex: cloudshellxyzstorage)
-    - File Share: Create a new one and name it cloudshellfileshare
+    ![Screenshot of Azure Portal Azure Cloud Shell Storage.](../images/M03-0806.png)
 
 
 # Task 2: Use CLI to create a virtual machine
 
 In this task, we will use Azure CLI to create a resource group and a virtual machine.
 
-1. Ensure **Bash** is selected in the upper-left drop-down menu of the Cloud Shell pane (and if not, select it).
+>**Note**: Open a notepad on the virtual machine and copy the Powershell/Bash commands into it first. From the notepad it can then be pasted into the browser by right clicking "copy" and "paste as plain text". 
 
-    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](../images/M03-0902.png)
+1. Verify that Bash is active. If Powershell is currently active, click on  **Switch to Bash**. 
+
+    ![Screenshot of Azure Portal Azure Cloud Shell Storage.](../images/M03-0807.png)
+
 
 
 2. Verify the resource group you are using by entering the following command.
@@ -42,13 +44,18 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
     az group list --output table
     ```
 
+3. In Cloud Shell enter the command below to create a resource group.
+    ```cli
+    az group create --location eastUs2 --resource-group 09-vm-cli
+    ```
+
 4. In Cloud Shell enter the command below and make sure that each line, except for the last one, is followed by the backslash (`\`) character. If you type the whole command on the same line, do not use any backslash characters. 
 
     ```cli
     az vm create \
     --name myVMCLI \
     --resource-group 09-vm-cli \
-    --image UbuntuLTS \
+    --image ubuntu2204 \
     --location EastUS2 \
     --admin-username azureuser \
     --admin-password Pa$$w0rd1234

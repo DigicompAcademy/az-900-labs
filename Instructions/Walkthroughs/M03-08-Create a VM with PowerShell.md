@@ -17,21 +17,19 @@ In this task, we will configure Cloud Shell.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/M03-0801.png)
 
-3. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**.
+3. At **Getting Started** select **no storage account required** and click on **Apply**
+    
+    ![Screenshot of Azure Portal Azure Cloud Shell Storage.](../images/M03-0805.png)
 
-4. On the **You have no storage mounted** screen select **Show advanced settings** then fill in the information below
+4. Verify that Powershell is active. If Bash is currently active, click on  **Switch to PowerShell**. 
 
-    | Settings | Values |
-    |  -- | -- |
-    | Resource Group | Click on **Create new** <br /> Name: **08-vm-powershell** |
-    | Storage account (Create a new account a use a globally unique name (ex: cloudshellstoragemystorage)) | **cloudshellxxxxxxx** |
-    | File share (create new) | **shellstorage** |
+    ![Screenshot of Azure Portal Azure Cloud Shell Storage.](../images/M03-0806.png)
 
-5. Select **Create Storage**
 
 # Task 2: Create a resource group and virtual machine
-
 In this task, we will use PowerShell to create a resource group and a virtual machine.  
+
+>**Note**: Open a notepad on the virtual machine and copy the Powershell/Bash commands into it first. From the notepad it can then be pasted into the browser by right clicking "copy" and "paste as plain text". 
 
 1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
@@ -102,7 +100,7 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
 1. From the **All services** blade, search for and select **Advisor**. 
 
-2. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by Reliability, Security, Performance, and Cost. 
+2. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by Cost, Security, Reliability, Operational Excellence, Performance. 
 
     ![Screenshot of the Advisor Overview page. ](../images/M03-0803.png)
 
