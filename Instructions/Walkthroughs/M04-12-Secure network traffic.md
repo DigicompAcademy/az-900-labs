@@ -9,7 +9,7 @@ In this walk-through, we will configure a network security group.
 
 # Task 1: Create a virtual machine
 
-In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
+In this task, we will create a Windows Server 2025 Datacenter virtual machine. 
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
@@ -23,7 +23,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Resource group | Click on **Create new** <br /> Name: **12-secure-network** |
     | Virtual machine name | **SimpleWinVM** |
     | Region | **(US) East US**|
-    | Image | **Windows Server 2019 Datacenter Gen 2**|
+    | Image | **Windows Server 2025 Datacenter - x64 Gen2**|
     | Size | **Standard D2s v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
@@ -86,7 +86,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/M02-1201.png)
 
-4. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: myVMNic)** network security group denies all inbound traffic except traffic within the virtual network and load balancer probes.
+4. On the virtual machine blade, scroll down to the **Networking** section, click on **Network settings**, and notice the inbound rules for the **myNSGSecure (attached to network interface: myVMNic)** network security group denies all inbound traffic except traffic within the virtual network and load balancer probes.
 
 5. On the **Inbound port rules** tab, click **Add inbound port rule** . Click **Add** when you are done. 
 
