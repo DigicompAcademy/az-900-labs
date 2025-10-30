@@ -23,7 +23,7 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
     | Virtual machine name | **myVM** |
     | Region | **(US) East US**|
     | Availability options | No infrastructure redundancy options required|
-    | Image | **Windows Server 2019 Datacenter - Gen2**|
+    | Image | **Windows Server 2025 Datacenter - x64 Gen2**|
     | Size | **Standard D2s v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password (type in carefully!) | **Pa$$w0rd1234**|
@@ -56,7 +56,7 @@ In this task, we will connect to our new virtual machine using RDP (Remote Deskt
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/M02-0101.png)
 
-3. On the **Connect** page, under **Native RDP** click on **Select**. An Sidebar  menu opens. In this menu click on **Download RDP file**. 
+3. On the **Connect** page, under **Native RDP** click on **Download RDP file**. 
   
     ![Screenshot RDP File download.](../images/M02-0109.png)
 
@@ -65,7 +65,7 @@ In this task, we will connect to our new virtual machine using RDP (Remote Deskt
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/M02-0102.png)
 
-5. In the **Windows Security** window, sign in using the Admin Credentials you used when creating your VM **azureuser** and the password **Pa$$w0rd1234**. 
+5. In the **Windows Security** window, sign in using the Admin Credentials you used when creating your VM **azureuser** and the password **Pa$$w0rd1234** 
 
 6. You may receive a warning certificate during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
 

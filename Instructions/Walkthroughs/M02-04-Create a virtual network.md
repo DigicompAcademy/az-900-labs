@@ -42,7 +42,7 @@ In this task, we will create two virtual machines in the virtual network.
    | Resource group |  **04-vnet-connection** |
    | Virtual machine name | **vm1**|
    | Region | **(US) East US** |
-   | Image | **Windows Server 2019 Datacenter - Gen2** |
+   | Image | **Windows Server 2025 Datacenter - x64 Gen2** |
    | Username| **azureuser** |
    | Password| **Pa$$w0rd1234** |
    | Public inbound ports| Select **Allow selected ports**  |
