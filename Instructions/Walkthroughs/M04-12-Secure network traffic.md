@@ -117,11 +117,11 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 4. Back in the Azure portal, navigate back to the blade of the **SimpleWinVM** virtual machine. 
 
-5. Under **Network**, click **Networking Settings**, and then **Outbound port rules**.
+5. Under **Networking**, click **Networking settings**, and scroll down to the section **Outbound port rules**.
 
 6. Notice there is a rule, **AllowInternetOutbound**. This a default rule and cannot be removed. 
 
-7. Click **Add outbound port rule** to the right of the **myNSGSecure  (attached to network interface: myVMNic)** network security group and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** when you are finished. 
+7. Click **Create port rule** and select **Add outbound port rule** and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** when you are finished. 
 
     | Setting | Value |
     | -- | -- |
