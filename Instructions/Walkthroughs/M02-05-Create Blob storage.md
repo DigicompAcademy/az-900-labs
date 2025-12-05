@@ -22,6 +22,8 @@ In this task, we will create a new storage account.
     | Subscription | **Leave provided default** |
     | Resource group | Click on **Create new** <br /> Name: **05-storage-account** |
     | Storage account name | **storageaccountxxxxx** |
+    | Preferred storage type | Azure Blob Storage or Data Lake Storage Gen 2 |
+    | Primary Workload | Other |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
     | Redundancy | **Locally redundant storage (LRS)** |
